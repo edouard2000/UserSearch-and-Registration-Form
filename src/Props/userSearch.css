@@ -1,47 +1,44 @@
+/* App overall styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
+/* Main container styles */
 div {
     background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-    width: 80%;
-    max-width: 500px; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
 }
 
 h2 {
-    border-bottom: 2px solid #e4e4e4;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 1.5em;
+    margin-top: 0;
+    font-size: 1.4em;
 }
 
 input[type="text"], input[type="number"] {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #d4d4d4;
-    font-size: 1em;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #007BFF;
     color: white;
     cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.2s;
 }
 
 button:hover {
@@ -51,8 +48,4 @@ button:hover {
 ul {
     list-style: none;
     padding: 0;
-}
-
-li {
-    padding: 5px 0;
 }
