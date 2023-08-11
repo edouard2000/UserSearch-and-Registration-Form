@@ -12,11 +12,11 @@ body {
 /* Main container styles */
 div {
     background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-    width: 100%;
-    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    width: 80%;
+    max-width: 500px; 
 }
 
 h2 {
@@ -28,8 +28,9 @@ input[type="text"], input[type="number"] {
     width: 100%;
     padding: 8px;
     margin: 10px 0;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid #d4d4d4;
+    font-size: 1em;
 }
 
 button {
